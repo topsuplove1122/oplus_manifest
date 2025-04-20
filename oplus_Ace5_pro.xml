@@ -2,7 +2,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
-  <default revision="main-kernel-build-2023" remote="aosp" sync-j="8" />
+  <default revision="main-kernel-build-2023" remote="aosp" sync-j="4" />
   <superproject name="kernel/superproject" remote="aosp" revision="common-android14-6.1-2025-05" />
   <project path="build/kernel" name="kernel/build">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
